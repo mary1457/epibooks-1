@@ -14,14 +14,21 @@ import fantasy from './data/fantasy.json'
 function App() {
   return (
     <>
-      <MyNav />
-      <Container>
-        <Welcome />
-       
-        <BookList books={fantasy} />
-      </Container>
-      <MyFooter />
+      <header>
+<MyNav />
+</header>
+<main> 
+<Welcome />
+<Container fluid className="p-0">
+ <BookList books={fantasy} />
+</Container>
+</main>
+<footer>
+<MyFooter />
+</footer>
     </>
+
+
   )
 }
 
