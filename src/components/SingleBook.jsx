@@ -16,7 +16,7 @@ class SingleBook extends Component {
       >
          <Card.Img variant="top" src={this.props.book.img} />
                     <Card.Body>
-                      <Card.Title style={{ color: 'black' }}>{this.props.book.title}</Card.Title>
+                      <Card.Title >{this.props.book.title}</Card.Title>
                       <Card.Text>
                       {this.props.book.category}
                       </Card.Text>

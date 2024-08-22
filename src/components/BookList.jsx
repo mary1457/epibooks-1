@@ -12,7 +12,7 @@ class BookList extends Component {
       
         <Row className="g-2 mt-3">
           {this.props.books.map((b) => (
-              <Col xs={12} md={4} key={b.asin}>
+              <Col xs={12} md={6} lg={4} xl={2} key={b.asin}>
                 <SingleBook book={b} />
               </Col>
             ))}
