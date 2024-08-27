@@ -19,7 +19,7 @@ function App() {
 </header>
 <main> 
 <Welcome />
-<Container fluid className="p-0">
+<Container fluid >
  <BookList books={fantasy} />
 </Container>
 </main>
